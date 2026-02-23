@@ -1,7 +1,7 @@
 import Layout from '@theme/Layout';
 import { JSX } from 'react';
 import Button from '../components/Button';
-import { Info, FileText, Activity, AlertTriangle, CheckCircle, Grid, BarChart2, Code, PieChart } from 'lucide-react';
+import { Info, FileText, Activity, AlertTriangle, CheckCircle, Grid, BarChart2, Code, PieChart, ScrollText } from 'lucide-react';
 
 const CallToAction = () => {
   return (
@@ -70,6 +70,11 @@ const Capabilities = () => {
       title: 'Validation Summary & Quality Dashboard',
       description: 'Track and identify data quality issues effectively.',
       icon: PieChart,
+    },
+    {
+      title: 'Data Contract',
+      description: 'Generate quality rules from ODCS data contracts, including schema validation.',
+      icon: ScrollText,
     },
   ];
 
